@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drone"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Welcome_text"
+        android:layout_width="622dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text=" Welcome to Build-a-Drone"
+        android:textColor="#800080"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prompt_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:fontFamily="casual"
+        android:text="How would you like to fly your drone?"
+        android:textColor="#800080"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Welcome_text" />
+
+    <Button
+        android:id="@+id/button_instructions"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="Instructions"
+        android:textColor="#FAC898"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Welcome_text" />
+
+    <Button
+        android:id="@+id/button_block_coding"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="Block Coding"
+        android:textColor="#FAC898"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prompt_text" />
+
+    <Button
+        android:id="@+id/button_flight_controller"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="Flight Controller"
+        android:textColor="#FAC898"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prompt_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

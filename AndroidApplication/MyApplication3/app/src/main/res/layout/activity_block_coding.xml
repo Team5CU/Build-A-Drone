@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAC898"
+    tools:context=".BlockCoding">
+
+    <!-- Button to add items -->
+
+    <!-- ListView to show the options on the right side -->
+
+    <ListView
+        android:id="@+id/leftListView"
+        android:layout_width="274dp"
+        android:layout_height="340dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rightListView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <ListView
+        android:id="@+id/rightListView"
+        android:layout_width="283dp"
+        android:layout_height="253dp"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/leftListView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <Button
+        android:id="@+id/button_exit2"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="268dp"
+        android:background="#FAC898"
+        android:text="Exit"
+        android:textColor="#FAC898"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_delete_last"
+        android:layout_width="137dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="268dp"
+        android:background="#FAC898"
+        android:text="Delete"
+        android:textColor="#FAC898"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_download"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="116dp"
+        android:background="#FAC898"
+        android:text="Download"
+        android:textColor="#FAC898"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -52,7 +52,7 @@ To make the most of this repository, you can:
 
 Here's a breakdown of the repository contents:
 
-    BLE_Server_Code/            # Bluetooth Low Energy server implementation
+    BLE_Server                  # Bluetooth Low Energy server implementation
     AndroidApplication          # Android app source code
     Drone_Flight_Controller/    # Code for the drone's flight controller
     Test_Code/                  # Testing scripts and tools

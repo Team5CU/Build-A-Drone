@@ -7,7 +7,6 @@ Comprehensive step-by-step directions for assembling and operating the drone are
 
     Assembly Instructions: How to build the drone.
     Setup Guide: How to configure the software and hardware components.
-    Troubleshooting: Common issues and their solutions.
 
 To access the instructions:
 

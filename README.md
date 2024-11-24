@@ -94,6 +94,11 @@ For support or inquiries, please contact us by opening an issue in this reposito
 
 🙏 Acknowledgments and Credits
 
+Grace Boccia, Kyle Buttermore, Chase Kinley, Josh White, & Langston Cooper
+Clemson University Holcombe Department of Electrical and Computer Engineering
+Senior Design II: DIY Drone Kit
+Last Updated: December 4, 2024
+
 This project wouldn't have been possible without the help and inspiration from various open-source projects and resources. We’d like to acknowledge and thank the following for their contributions:
 
     Android Developers Documentation:
